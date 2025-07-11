@@ -33,36 +33,6 @@ const Users = () => {
                 </tr>
               })
             }
-
-
-          </tbody>
-        </table>
-        <table className='table'>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Age</th>
-              <th>Action</th>
-              <th>delete</th>
-            </tr>
-          </thead>
-          <tbody>
-            {
-              users.map((users) => {
-                return <tr>
-                  <td>{users.Name}</td>
-                  <td>{users.Email}</td>
-                  <td>{users.Age}</td>
-                  <td>
-                    <Link to="/update" className='btn btn-success'>Edit</Link>
-                    <button>Delete</button>
-                  </td>
-                </tr>
-              })
-            }
-
-
           </tbody>
         </table>
       </div>
